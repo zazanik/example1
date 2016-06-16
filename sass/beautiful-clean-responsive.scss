@@ -1,0 +1,69 @@
+.beautiful{
+  text-align: center;
+}
+.beautiful h2{
+  color: $bace-h2-color;
+  font-family: $bace-h-family;
+  font-size: 23px;
+  font-weight: 700;
+  margin: 122px 0 20px 0;
+}
+.beautiful .text{
+  color: $bace-text-color;
+  font-family: $bace-text-family;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 27px 0 80px 0;
+}
+
+.text-col{
+  position: relative;
+  padding-left: 100px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.beautiful img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+}
+.beautiful h3{
+  display: inline-block;
+  color: $bace-h2-color;
+  font-family: $bace-h-family;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+.beautiful p{
+  color: $bace-text-color;
+  font-family: $bace-text-family;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.563em;
+  margin: 22px 0 0 0;
+}
+
+.beautiful .row{
+  margin-bottom: 71px;
+}
+@media (min-width: 768px) {
+  .beautiful h2{
+    font-size: 44px;
+  }
+  .beautiful .text{
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  .beautiful img{
+    margin-left: 24px;
+  }
+  .beautiful .text{
+    padding: 0 80px 0 80px;
+  }
+  .text-col{
+    padding-left: 128px;
+  }
+}

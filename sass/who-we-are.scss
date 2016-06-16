@@ -1,0 +1,107 @@
+.who-we-are{
+  background-color: #2f4052;
+  text-align: left;
+}
+.who-we-are .row{
+  margin-bottom: 38px;
+}
+.who-we-are h3{
+  margin: 71px 0 26px 0;
+  color: $bace-whoweare-h3-color;
+  font-family: $bace-h-family;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.who-we-are .text{
+  color: $bace-whoweare-text-color;
+  font-family: $bace-text-family;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 20px 0 20px 0;
+}
+.last-sentence-div{
+  margin: 0 0 40px 0;
+  color: $bace-whoweare-text-color;
+}
+.last-sentence a{
+  color: $bace-whoweare-text-color;
+  font-family: $bace-text-family;
+  font-size: 15px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.who-img-cont{
+  background: #00bc9c url("../img/icon-plus.png") no-repeat center center;
+  float: left;
+  width: 46%;
+  margin: 10px 2% 5px 2%;
+}
+.who-img-cont img{
+  display: block;
+  width: 100%;
+}
+.who-img-cont:hover img{
+  visibility: hidden;
+}
+.who-we-are ul{
+  list-style-type: none;
+}
+.who-we-are li{
+  color: $bace-whoweare-text-color;
+  font-family: $bace-text-family;
+  font-size: 14px;
+  font-weight: 400;
+}
+.who-we-are li img{
+  margin-right: 10px;
+}
+
+.form-sign{
+  width: 270px;
+  height: 40px;
+  position: relative;
+}
+.background-sign{
+  width: 270px;
+  height: 40px;
+  opacity: 0.15;
+  background-color: white;
+  border-radius: 3px;
+}
+.form-sign .placeholder-sign {
+  width: 173px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  color: #828e99;
+  font-family: $bace-text-family;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 12px;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.form-sign input:focus{
+  outline: 0;
+}
+.form-sign .button2{
+  margin: 0;
+  color: $button-color;
+  font-family: $bace-text-family;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  width: 88px;
+  height: 30px;
+  background-color: $button-bg;
+  border-radius: 3px;
+  position: absolute;
+  top:5px;
+  right: 5px;
+}
+.form-sign .button2:hover{
+  background-color: $button-hover-bg;
+}

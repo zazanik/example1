@@ -1,0 +1,109 @@
+.hero{
+  background-color: $made-for-designers-bg;
+  min-height: 880px;
+  text-align: center;
+  position: relative;
+}
+
+.hero h2{
+  color: $bace-h1-color;
+  font-family: $bace-h-family;
+
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 286px;
+  text-transform: uppercase;
+}
+.h-page .navbar-default .navbar-nav>.open>a:hover{
+  background-color: #f5f7fa;
+}
+.h-page .navbar-default .navbar-nav>.open>a{
+  background-color: #f5f7fa;
+}
+.h-page .dropdown-menu{
+  background-color: #f5f7fa;
+}
+.h-page .dropdown-menu li{
+  border-bottom: 1px solid #e6e9ed;
+  height: 45px;
+}
+.h-page .dropdown-menu li a{
+  line-height: 38px;
+}
+.h-page .dropdown-menu{
+
+}
+.h-page .dropdown-menu>li>a:hover{
+  background-color: #00bc9c;
+}
+.hero .text{
+  color: #a3b1bf;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 16px 0 0 0;
+}
+.circle-slider{
+  list-style-type: none;
+  height: 45px;
+  width: 145px;
+  background-color: transparent;
+  border-radius: 3px;
+  position: absolute;
+  bottom: -23px;
+  left: 50%;
+  margin-left: -73px;
+}
+.circle-slider li{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: transparent;
+  margin: 14px 8px 0 0;
+}
+.circle-slider li:first-child{
+  margin-left: 2px;
+}
+.circle-slider li:last-child{
+  margin-right: 0;
+}
+.circle-slider:hover{
+  background-color: white;
+}
+.circle-slider:hover li{
+  background-color: #506a85;
+}
+.circle-slider li:hover{
+  background-color: #00bc9c;
+}
+.hero-hover:hover .circle-slider{
+  background-color: white;
+}
+.hero-hover:hover .circle-slider li{
+  background-color: #506a85;
+}
+@media screen and (min-width: 768px){
+  .hero h2{
+    font-size: 66px;
+  }
+  .button{
+    width: 295px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero{
+    background: url("../img/main-img.jpg") no-repeat;
+    text-align: center;
+    background-size: cover;
+  }
+  .hero h2{
+    font-size: 78px;
+  }
+  .button{
+    margin-left:440px;
+  }
+  .hero .text{
+    font-size: 24px;
+  }
+}

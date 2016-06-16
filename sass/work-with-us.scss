@@ -1,0 +1,34 @@
+.work-with-us{
+  min-height: 483px;
+  text-align: center;
+}
+.work-with-us h2{
+  color: $bace-h2-color;
+  font-family: $bace-h-family;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 103px 0 17px 0;
+}
+.work-with-us .text{
+  color: $bace-text-color;
+  font-family: $bace-text-family;
+  font-size: 22px;
+  font-weight: 400;
+}
+.work-with-us .button{
+  width: 150px;
+  height: 50px;
+  margin: 43px auto 130px auto;
+  display: block;
+  line-height: 50px;
+}
+@media (min-width: 768px){
+  .work-with-us h2{
+    font-size: 44px;
+  }
+}
+@media (min-width: 1200px) {
+  .work-with-us .button{
+    margin-left: 511px;
+  }
+}

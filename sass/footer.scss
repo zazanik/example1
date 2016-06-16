@@ -1,0 +1,48 @@
+.f-page{
+  background-color: #283645;
+  min-height:83px;
+}
+.f-page .last-terms{
+  color: #707e8c;
+  font-family: $bace-text-family;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 29px 0 0 0;
+  text-align: center;
+}
+.f-page ul{
+  list-style-type: none;
+  margin: 29px 0 20px 0;
+  text-align: center;
+}
+.f-page li{
+  display: inline-block;
+  color: #707e8c;
+  font-family: $bace-text-family;
+  font-size: 14px;
+  font-weight: 400;
+}
+.f-page li a:hover{
+  color: #00bc9c;
+}
+@media screen and (max-width: 349px){
+  .f-page li:nth-child(2n){
+    display: none;
+  }
+}
+@media screen and (min-width: 550px){
+  .f-page .last-terms{
+    float: left;
+  }
+  .f-page ul{
+    float: right;
+  }
+}
+@media (min-width: 1200px) {
+  .f-page ul{
+    margin: 29px -31px 20px 0;
+  }
+  .f-page li{
+    margin: 0 0 0 6px;
+  }
+}
